@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Traits;
+namespace lxove\lxaravel\Traits;
 
 use ValueError;
 

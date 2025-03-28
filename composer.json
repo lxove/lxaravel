@@ -2,6 +2,7 @@
     "name": "lxove/lxaravel",
     "description": "Some useful laravel things that I commonly use in my projects",
     "type": "library",
+    "version": "1.0.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {

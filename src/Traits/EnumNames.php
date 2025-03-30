@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Traits;
+namespace lxove\lxaravel\Traits;
 
 trait EnumNames {
     public static function names(): array {

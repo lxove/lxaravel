@@ -1,0 +1,21 @@
+{
+    "name": "lxove/lxaravel",
+    "description": "Some useful laravel things that I share among projects",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "lxove\\lxaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Love",
+            "email": "love.jonsson@ecsolutions.se"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^12.3",
+        "php": ">=8.0"
+    }
+}

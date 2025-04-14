@@ -7,9 +7,14 @@ trait EnumNames {
         return self::casesToStringArray(self::cases());
     }
 
-    private static function casesToStringArray(array $cases): array {
+    public static function casesToStringArray(array $cases): array {
         return collect($cases)
             ->map(fn (self $case) => $case->name)
+            ->toArray();
+    }
+    public static function casesToIntArray(array $cases): array {
+        return collect($cases)
+            ->map(fn (self $case) => $case->value)
             ->toArray();
     }
 }

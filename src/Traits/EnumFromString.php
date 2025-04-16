@@ -10,7 +10,7 @@ trait EnumFromString {
      *
      * For non-backed Enums.
      */
-    public static function from(string $str) {
+    public static function fromString(string $str) {
         try {
             return collect(self::cases())
                 ->firstOrFail(fn (self $case) => $case->name == $str);

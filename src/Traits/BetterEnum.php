@@ -11,7 +11,7 @@ trait BetterEnum {
   }
   
   public function unserialize(string $str) {
-    return $this::from($str);
+    return $this::fromString($str);
   }
 
   public function jsonSerialize(): mixed {
